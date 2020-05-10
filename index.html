@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee King</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Pacifico&display=swap" rel="stylesheet">
+    <!-- M Script -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--  -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <section>     
+      <nav class="nav-fixed">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">CafeKing</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#" onclick="toggleModal();">Home</a></li>
+            <li><a href="#" onclick="toggleModal();">About</a></li>
+            <li><a href="#" onclick="toggleModal();">Coffee</a></li>
+            <li><a href="#" onclick="toggleModal();">Surprise</a></li>  
+            <li><a href="#" onclick="toggleModal();">Contact</a></li>    
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+            <li><a href="#" onclick="toggleModal();">Home</a></li>
+            <li><a href="#" onclick="toggleModal();">About</a></li>
+            <li><a href="#" onclick="toggleModal();">Coffee</a></li>
+            <li><a href="#" onclick="toggleModal();">Surprise</a></li>  
+            <li><a href="#" onclick="toggleModal();">Contact</a></li> 
+      </ul>
+    </section>
+
+  <!-- Slider -->
+    <section class="fslider">
+      <div class="slider">
+        <ul class="slides">
+            <li>
+              <img src="images/img0.jpg" alt="image one">
+              <div class="caption center-align white-text">
+                <h3>CafeKing - Quality Cafe</h3>
+                <h5>
+                  We serve badass Brew. (period)
+                </h5>
+              </div>
+            </li>  
+            <li>
+              <img src="images/img1.jpg" alt="image one">
+              <div class="caption center-align white-text">
+                <h3>Guarrentied Plaesurism</h3>
+                <h5>
+                  You won't sleep for next 4 hours
+                </h5>
+              </div>
+            </li>  
+            <li>
+              <img src="images/img2.jpg" alt="image one">
+              <div class="caption center-align white-text">
+                <h3>Indian and Mexican Coc Beans</h3>
+                <h5>
+                  From High Quality Imported Roasted Coco Beans
+                </h5>
+              </div>
+            </li>  
+          </ul>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <section class="infomodal">
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+              <h4 id="info-modal-heading">Link Disabled</h4>
+              <p id="info-modal-content">Sorry! Work in Progress</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+    </section>
+</body>
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<!-- Actual M Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- Custom JS-->
+<script src="js/loader.js"></script>
+</html>
